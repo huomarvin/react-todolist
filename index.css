@@ -1,0 +1,25 @@
+#root {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list {
+    width: 500px;
+    background-color: rgb(222, 231, 166);
+}
+
+.add-item-block {
+    display:flex;
+    flex-direction: column;
+}
+
+.add-item-block input, button {
+    height: 36px;
+    line-height: 36px;
+    margin-top:24px;
+}
+
+.add-item-block button {
+    border-radius: 5px;
+}
